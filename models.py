@@ -92,5 +92,5 @@ class Links(models.Model):
 
     def __str__(self):
         if self.text==None:
-            return self.title
+            return self.hover
         return self.text
